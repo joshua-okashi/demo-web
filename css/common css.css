@@ -1,0 +1,44 @@
+/* reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section,footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+/*common*/
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.button {
+    display: inline-block;
+    font-size: 20px;
+    background-color: #f3f386;
+    padding: 10px 30px; 
+    border-radius: 4px;
+    opacity: 0.9;
+}
+.button:hover {
+    opacity: 1;
+}
+.layout {
+    width: 1000px;
+    margin: 0 auto;
+}
+body {
+    font: 14px/1.5 Arial;
+    background-color: #f7f7f7;
+}      
